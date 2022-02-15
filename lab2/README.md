@@ -2,6 +2,7 @@
 
 New monolithic Ansible playbook, `main.yml` and supporting files  which is designed for teaching and training in refacoring and
 the use of roles, collections etc.
+
 Designed to replace the function of the old link:https://github.com/tonykay/bad-ansible[`bad-ansible`] with a different
 approach, i.e. start with a fully functional playbook and teardown and iteratively refactor.
 
@@ -10,30 +11,11 @@ approach, i.e. start with a fully functional playbook and teardown and iterative
 
 Assumes a configuration matching an AgnosticD `three-tier-app` with a `devops` service account.
 
-. Deploy
-
-+
-[source,bash]
-----
-ansible-playbook main.yml
-----
-
-
-=== Overall Architecture
-
-image::.images/ntier-app-topology.png[role="thumb center" width=80%]
-
-*Concept change from `bad-ansible`*
-
-n-tier app is designed to be well written *but* monolithic in its construction
-to all useful exercises in refactoring, introducing modularity, and a backdrop
-to create roles and or collections from sound a sound ansible code base.
-
 === Outline of main flow
 
 * common
 ** setup repos (via satellite)
-** setup firewalld??
+** setup firewalld
 * setup postgres
 ** firewalld rule opening 5432
 ** install postgres 10
