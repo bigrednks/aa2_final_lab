@@ -3,7 +3,7 @@
 New monolithic Ansible playbook, `main.yml` and supporting files  which is designed for teaching and training in refacoring and
 the use of roles, collections etc.
 
-Designed to replace the function of the old link:https://github.com/redhat-gpte-devopsautomation/aa2_final_lab with a different
+Designed to replace the function of the old link: [ https://github.com/redhat-gpte-devopsautomation/aa2_final_lab ] with a different
 approach, i.e. start with a fully functional playbook and teardown and iteratively refactor.
 
 
