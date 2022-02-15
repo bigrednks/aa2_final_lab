@@ -2,7 +2,7 @@
 
 New monolithic Ansible playbook, `main.yml` and supporting files  which is designed for teaching and training in refacoring and
 the use of roles, collections etc.
-Designed to replace the function of the old link:https://github.com/tonykay/bad-ansible[`bad-ansible`] with a different
+Designed to replace the function of the old link:https://github.com/redhat-gpte-devopsautomation/aa2_final_lab with a different
 approach, i.e. start with a fully functional playbook and teardown and iteratively refactor.
 
 
@@ -19,7 +19,7 @@ ansible-playbook main.yml
 ----
 
 
-=== Overall Architecture 
+=== Overall Architecture
 
 image::.images/ntier-app-topology.png[role="thumb center" width=80%]
 
@@ -60,7 +60,7 @@ Does firewalld need to be configured?
 ** Setting it up from scratch
 
 https://opensource.com/article/17/6/ansible-postgresql-operations
-  
+
 
 
 == Credits
