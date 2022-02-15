@@ -1,7 +1,0 @@
----
-- import_playbook: 1_provision.yml
-- import_playbook: 2_in-memory-inventory.yml
-- import_playbook: 3_deploy_database.yml
-- import_playbook: 4_deploy_app.yml
-- import_playbook: 5_deploy_haproxy.yml
-- import_playbook: 6_smoketest.yml
