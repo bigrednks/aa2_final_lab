@@ -1,0 +1,4 @@
+---
+general_setup_satellite_url: satellite.example.com
+general_setup_satellite_org: 'prod'
+general_setup_satellite_activationkey: 'gpte-labs-rhel8'

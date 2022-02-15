@@ -1,0 +1,10 @@
+---
+- name: Deploy database
+  hosts: database_servers
+  become: yes
+  gather_facts: false
+  tags:
+    - database_servers
+  roles: 
+    - general_setup
+    - database

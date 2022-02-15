@@ -1,0 +1,3 @@
+just run `ansible-playbook 0_site.yml` on control node. This will provision whole infrastruce and three tier app
+
+
